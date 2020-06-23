@@ -1,0 +1,72 @@
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg/bg-7.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+::selection {
+    background-color: #e0dbdb;
+}
+
+.container {
+	background: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	height: auto;
+}
+
+i {
+	font-size: 100px;
+	color: #000;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 900;
+	color: #000;
+}
+p{
+	font-size: 20px;
+	color: #808080;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #f7f7f7;
+}
+a:hover {
+	text-decoration: none;
+	border-radius: 25px;
+	transition: 1s;
+	background: #000;
+	color: #fff;
+}
+
+.animate-zoom-1 {
+	animation:animatezoom 1s
+}
+@keyframes animatezoom {
+	from {
+		transform:scale(0)
+	} 
+	to {
+		transform:scale(1)
+	}
+}
+.animate-zoom-2 {
+	animation:animatezoom 0.8s
+}
+@keyframes animatezoom {
+	from {
+		transform:scale(0)
+	} 
+	to {
+		transform:scale(1)
+	}
+}
